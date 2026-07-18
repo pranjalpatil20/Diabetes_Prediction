@@ -12,7 +12,7 @@ st.set_page_config(
 )
 
 # LOAD MODEL-----
-model=pickle.load(open(r"best_model1.pkl", "rb"))
+model=pickle.load(open("best_model1.pkl", "rb"))
 
 # TITLE-----
 st.title("🧠 Diabetes Risk Predictor")
